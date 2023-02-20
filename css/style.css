@@ -1,0 +1,18 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    background: peachpuff;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container div {
+    text-align: center;
+    background: tan;
+    border: 2px solid saddlebrown;
+    flex: 1;
+}
