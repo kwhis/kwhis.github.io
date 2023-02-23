@@ -8,6 +8,11 @@ a {
 }
 
 a:hover {
+    text-shadow: #2A251E 1px 0 10px;
+}
+
+li a:hover {
+    text-shadow: none;
     text-decoration: underline;
 }
 
