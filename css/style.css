@@ -1,5 +1,7 @@
 body{
     font-family: Verdana, sans-serif;
+    background-color: peachpuff;
+    margin: 0px;
 }
 
 h1,
@@ -26,17 +28,40 @@ li a:hover {
 }
 
 ul {
-    background: peachpuff;
+    background: #cd9e80;
 }
 
 #menu {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; 
 }
 
 #menu div{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
     text-align: center;
-    background: tan;
+    background: #cd9e80;
     flex: 1 auto;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.align-menu {
+    align-items: flex-end;
+}
+
+.home {
+    align-items: center;
+    font-size: larger;
+}
+
+.flex-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: peachpuff;
+}
+
+.flex-container *{
+    flex: 1;
 }
