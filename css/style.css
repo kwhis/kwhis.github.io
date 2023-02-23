@@ -1,4 +1,4 @@
-*{
+body{
     font-family: Verdana, sans-serif;
 }
 
@@ -15,10 +15,12 @@ a {
 }
 
 a:hover {
-    text-shadow: #2A251E 1px 0 10px;
+    text-shadow: #2A251E 2px 0 5px;
+    color: white;
 }
 
 li a:hover {
+    color: black;
     text-shadow: none;
     text-decoration: underline;
 }
@@ -27,12 +29,12 @@ ul {
     background: peachpuff;
 }
 
-.flex-container {
+#menu {
     display: flex;
     flex-wrap: wrap;
 }
 
-.flex-container div {
+#menu div{
     text-align: center;
     background: tan;
     flex: 1 auto;
