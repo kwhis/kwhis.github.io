@@ -1,5 +1,12 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: Georgia, serif;
 }
 
 a {
@@ -29,4 +36,5 @@ ul {
     text-align: center;
     background: tan;
     flex: 1 auto;
+    font-family: 'Courier New', Courier, monospace;
 }
