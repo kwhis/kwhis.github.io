@@ -2,17 +2,26 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+a {
+    color: #2A251E;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 ul {
     background: peachpuff;
 }
 
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .flex-container div {
     text-align: center;
     background: tan;
-    border: 2px solid saddlebrown;
-    flex: 1;
+    flex: 1 auto;
 }
