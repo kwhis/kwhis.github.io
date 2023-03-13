@@ -1,84 +1,84 @@
-body{
-    font-family: Verdana, sans-serif;
-    background-color: #FEFAE0;
-    margin: 0px;
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fefae0;
+  margin: 0px;
 }
 
 h1,
 h2,
 h3,
-h4{
-    font-family: Georgia, serif;
+h4 {
+  font-family: Georgia, serif;
 }
 
 .skills {
-    font-size: medium;
+  font-size: medium;
 }
 
 a {
-    color: #2A251E;
-    text-decoration: none;
+  color: #2a251e;
+  text-decoration: none;
 }
 
 a:hover {
-    text-shadow: #CCD5AE 2px 0 5px;
-    color: white;
+  text-shadow: #ccd5ae 2px 0 5px;
+  color: white;
 }
 
 li a:hover {
-    color: #24170B;
-    text-shadow: none;
-    text-decoration: underline;
+  color: #24170b;
+  text-shadow: none;
+  text-decoration: underline;
 }
 
 ul {
-    background: #cd9e80;
-    width: 60%;
+  background: #cd9e80;
+  width: 60%;
 }
 
 #menu {
-    display: flex; 
+  display: flex;
 }
 
-#menu div{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    text-align: center;
-    background: #cd9e80;
-    flex: 1 auto;
-    font-family: 'Courier New', Courier, monospace;
+#menu div {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  text-align: center;
+  background: #cd9e80;
+  flex: 1 auto;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .align-menu {
-    align-items: flex-end;
+  align-items: flex-end;
 }
 
 .home {
-    align-items: center;
-    font-size: larger;
+  align-items: center;
+  font-size: larger;
 }
 
 .flex-container {
-    display:flex;
-    flex: 1;
-    background-color: peachpuff;
+  display: flex;
+  flex: 1;
+  background-color: peachpuff;
 }
 
-.content-flex{
-    flex: 2 1 0;
+.content-flex {
+  flex: 2 1 0;
 }
 
 .image-flex {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-self: center;
-    padding: 30px 10px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-self: center;
+  padding: 30px 10px;
 }
 
 .image-flex img {
-    width: 60%;
-    border-radius: 50%;
-    border: 4px solid #24170B;
+  width: 60%;
+  border-radius: 50%;
+  border: 4px solid #24170b;
 }
