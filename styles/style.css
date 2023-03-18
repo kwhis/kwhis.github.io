@@ -31,11 +31,6 @@ li a:hover {
   text-decoration: underline;
 }
 
-ul {
-  background: #cd9e80;
-  width: 60%;
-}
-
 #menu {
   display: flex;
 }
