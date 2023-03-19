@@ -25,7 +25,6 @@ h4 {
 
 a {
   color: #2a251e;
-  text-decoration: none;
 }
 
 /*Navigation Bar
@@ -42,6 +41,10 @@ a {
   background: #cd9e80;
   flex: 1 auto;
   font-family: "Courier New", Courier, monospace;
+}
+
+#nav-bar a {
+  text-decoration: none;
 }
 
 #nav-bar a:hover {
@@ -85,6 +88,10 @@ a {
 
 /*Self-Learning
 -------------------------------------------*/
+.certifications a {
+  text-decoration: none;
+}
+
 .certifications a:hover {
   color: #24170b;
   text-shadow: none;
