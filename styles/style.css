@@ -28,17 +28,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-shadow: #ccd5ae 2px 0 5px;
-  color: white;
-}
-
-li a:hover {
-  color: #24170b;
-  text-shadow: none;
-  text-decoration: underline;
-}
-
 /*Navigation Bar
 -------------------------------------------*/
 #nav-bar {
@@ -53,6 +42,11 @@ li a:hover {
   background: #cd9e80;
   flex: 1 auto;
   font-family: "Courier New", Courier, monospace;
+}
+
+#nav-bar a:hover {
+  text-shadow: #ccd5ae 2px 0 5px;
+  color: white;
 }
 
 .align-nav {
@@ -89,8 +83,23 @@ li a:hover {
   border: 4px solid #24170b;
 }
 
-/*Projects Page
+/*Self-Learning
+-------------------------------------------*/
+.certifications a:hover {
+  color: #24170b;
+  text-shadow: none;
+  text-decoration: underline;
+}
+
+/*Projects
 -------------------------------------------*/
 .projects img {
   width: 300px;
+}
+
+/*Connect
+-------------------------------------------*/
+.contact-list {
+  padding: 0;
+  list-style-type: none;
 }
