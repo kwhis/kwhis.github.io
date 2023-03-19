@@ -41,11 +41,11 @@ li a:hover {
 
 /*Navigation Bar
 -------------------------------------------*/
-#menu {
+#nav-bar {
   display: flex;
 }
 
-#menu div {
+#nav-bar div {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
@@ -55,21 +55,20 @@ li a:hover {
   font-family: "Courier New", Courier, monospace;
 }
 
-.align-menu {
+.align-nav {
   align-items: flex-end;
 }
 
-.home {
+.logo {
   align-items: center;
   font-size: larger;
 }
 
-/*Index Page Content
+/*Index
 -------------------------------------------*/
 .flex-container {
   display: flex;
   flex: 1;
-  background-color: peachpuff;
 }
 
 .content-flex {
@@ -86,7 +85,7 @@ li a:hover {
 
 .image-flex img {
   width: 60%;
-  border-radius: 50%;
+  border-radius: 50% 50% 5% 5%;
   border: 4px solid #24170b;
 }
 
