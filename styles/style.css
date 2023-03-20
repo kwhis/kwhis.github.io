@@ -30,6 +30,10 @@ a {
   color: #2a251e;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 /*Navigation Bar
 -------------------------------------------*/
 #nav-bar {
@@ -63,6 +67,7 @@ a {
   align-items: center;
   font-size: larger;
 }
+
 
 /*Index
 -------------------------------------------*/
@@ -107,7 +112,7 @@ a {
 .content {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 60px 20px;
 }
 
 /*Self-Learning
@@ -120,6 +125,17 @@ a {
   color: #24170b;
   text-shadow: none;
   text-decoration: underline;
+}
+
+blockquote {
+  background-color: #cd9e80;
+  padding: 25px;
+  border-radius: 12px;
+  margin-top: 40px;
+}
+
+blockquote span {
+  float: right;
 }
 
 /*Projects
@@ -142,27 +158,18 @@ a {
   margin-top: 0;
 }
 
-.projects p a {
-  color: #2f3061;
-  text-decoration: underline;
-}
-
-.projects p a:hover {
-  text-decoration: none;
-}
-
 .projects .btn {
-  background-color: #2f3061;
+  background-color: #343434;
   color: #f7fff7;
   padding: 8px;
   border-radius: 4px;
   display: inline-block;
   text-decoration: none;
+
 }
 
 .projects .btn:hover {
-  
-  background-color: rgba(47, 48, 97, 80%);
+  background-color: rgba(52, 52, 52, 0.8);
 }
 .divider > section {
   border-bottom: 1px dashed #343434;
