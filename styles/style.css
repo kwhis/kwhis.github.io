@@ -100,6 +100,12 @@ a {
   padding: 30px 70px 20px 0px;
 }
 
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
 /*Self-Learning
 -------------------------------------------*/
 .certifications a {
