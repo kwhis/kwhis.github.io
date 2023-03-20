@@ -13,7 +13,10 @@ peachpuff;
 body {
   font-family: Verdana, sans-serif;
   background-color: #fefae0;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 h1,
@@ -121,8 +124,53 @@ a {
 
 /*Projects
 -------------------------------------------*/
+.project-item {
+  overflow: hidden;
+  display: flex;
+}
+
+.project-description {
+  padding-left: 40px;
+}
+
 .projects img {
   width: 300px;
+  border:2px solid #2a251e ;
+}
+
+.project-item h3 {
+  margin-top: 0;
+}
+
+.projects p a {
+  color: #2f3061;
+  text-decoration: underline;
+}
+
+.projects p a:hover {
+  text-decoration: none;
+}
+
+.projects .btn {
+  background-color: #2f3061;
+  color: #f7fff7;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.projects .btn:hover {
+  
+  background-color: rgba(47, 48, 97, 80%);
+}
+.divider > section {
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+
+.divider > section:last-of-type {
+  border-bottom: none;
 }
 
 /*Connect
